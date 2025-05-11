@@ -177,4 +177,17 @@ body {
   iframe {
     border-radius: 8px;
   }
+
+.map-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+.map-container {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
   
