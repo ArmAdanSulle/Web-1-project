@@ -1,0 +1,122 @@
+/* === NAVBAR STYLES === */
+.navbar {
+    overflow: hidden;
+    background-color: #8d7b68;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: #e5d6c6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #e5d6c6;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover,
+  .subnav:hover .subnavbtn {
+    background-color: #445c44;
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #445c44;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: #e5d6c6;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #8d7b68;
+    color: white;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  
+  /* === CONTACT PAGE STYLES === */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e5d6c6;
+    color: #3a2f27;
+  }
+  
+  .contact-full {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .contact-full h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+  }
+  
+  .contact-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  
+  .contact-section {
+    flex: 1 1 300px;
+    background-color: #c8b6a6;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  }
+  
+  .contact-section h2 {
+    text-align: center;
+    color: #3a2f27;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p,
+  .contact-section a {
+    font-size: 16px;
+    color: #3a2f27;
+    text-decoration: none;
+  }
+  
+  .contact-section a:hover {
+    color: #445c44;
+  }
+  
+  .map-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
