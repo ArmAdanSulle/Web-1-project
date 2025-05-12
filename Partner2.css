@@ -177,22 +177,22 @@ body {
     gap: 15px;
 }  
 .footer-section .social-icon {
-    font-size: 2em; /* Adjust the size of the icons */
+    font-size: 2em; 
     transition: transform 0.3s ease-in-out;
 }  
 .footer-section .social-icon:hover {
-    transform: scale(1.1); /* Slightly increase the icon size on hover */
+    transform: scale(1.1); 
 }
 .footer-section .fab.fa-twitter {
-    color: #1da1f2; /* Twitter Blue */
+    color: #1da1f2; 
 }  
 .footer-section .fab.fa-instagram {
-    color: #e1306c; /* Instagram Pink/Red */
+    color: #e1306c; 
 }  
 .footer-section .fab.fa-youtube {
-    color: #ff0000; /* YouTube Red */
+    color: #ff0000;
 }  
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .footer-container {
       flex-direction: column;
