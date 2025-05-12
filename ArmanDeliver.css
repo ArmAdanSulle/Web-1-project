@@ -118,10 +118,3 @@ body {
 .subnav:hover .subnav-content {
     display: block;
 }  
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #e5d6c6; 
-    color: #e5d6c6;
-    margin: 0;
-    padding: 0;  
-}
