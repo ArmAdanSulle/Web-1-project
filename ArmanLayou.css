@@ -279,7 +279,7 @@ h1{
 /* Navigation links */
   .navbar a{
     float: left;
-    font-size: 20px;
+    font-size: 16px;
     color: #e5d6d6c6;;
     text-align: center;
     padding: 14px 16px;
@@ -292,7 +292,7 @@ h1{
 }
 /* Subnav button */
   .subnav .subnavbtn {
-    font-size: 20px;
+    font-size: 16px;
     border: none;
     outline: none;
     color:  #e5d6c6;;
@@ -312,7 +312,7 @@ h1{
     left: 0;
     background-color: #445c44;
     width: 100%;
-    z-index: 1;
+    z-index: 10;
 }
 /* Style the subnav links */
   .subnav-content a {
@@ -323,13 +323,21 @@ h1{
 }
 /* Add a grey background color on hover */
   .subnav-content a:hover {
-    background-color: #eee;
-    color: black;
+    background-color: #8d7b68;
+    color: white;
 }
 /* When you move the mouse over the subnav container, open the subnav content */
   .subnav:hover .subnav-content {
     display: block;
 }
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e5d6c6; 
+    color: #e5d6c6;
+    margin: 0;
+    padding: 0;
+    
+  }
 .price-btn {
     margin-top: 10px;
     padding: 15px 80px;
