@@ -317,7 +317,8 @@ h1{
 /* Style the subnav links */
   .subnav-content a {
     float: left;
-    color: white;
+    color: #e5d6c6;
+    padding: 14px 16px;
     text-decoration: none;
 
 }
