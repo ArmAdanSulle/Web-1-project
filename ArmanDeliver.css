@@ -93,7 +93,7 @@ body {
     background-color: inherit;
     font-family: inherit;
     margin: 0;
-  }
+}
 .navbar a:hover, .subnav:hover .subnavbtn {
     background-color: #445c44;
 }
