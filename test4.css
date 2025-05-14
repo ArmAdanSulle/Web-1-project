@@ -73,7 +73,7 @@ body {
 }
 
 
-.Intro {
+.Main {
   background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092');
   background-size: 100%, 100%; 
   width: 100%;
@@ -86,7 +86,7 @@ body {
   position: relative;
 }
 
-.Intro::before {
+.Main::before {
   content: "";
   position: absolute;
   top: 0;
@@ -97,18 +97,18 @@ body {
   z-index: 1;
 }
 
-.Intro_content {
+.Main_content {
   position: relative;
   z-index: 2;
 }
 
-.Intro h1 {
+.Main h1 {
   font-size: 4em;
   color: #e5d6c6;
   margin-bottom: 10px;
 }
 
-.Intro p {
+.Main p {
   font-size: 1.5em;
   color: #e5d6c6;
   margin-bottom: 20px;
@@ -118,7 +118,7 @@ body {
   margin: 10px;
 }
 
-/* Content Sections */
+
 section {
   padding: 60px 20px;
   max-width: 1000px;
