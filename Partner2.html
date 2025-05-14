@@ -102,23 +102,7 @@
   
     </div>
   
-  <script>
-    const buttons = document.querySelectorAll('.price-btn');
-  
-    buttons.forEach((btn) => {
-      btn.addEventListener('click', () => {
-        
-        const img = btn.parentElement.querySelector('img');
-        const foodName = img?.alt?.trim() || "Selected Item";
-  
-        
-        document.getElementById('food').value = foodName;
-  
-        
-        document.getElementById('order-section').scrollIntoView({ behavior: 'smooth' });
-      });
-    });
-  </script>
+
       
   </body>
   </html>
