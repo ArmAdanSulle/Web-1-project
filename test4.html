@@ -4,15 +4,14 @@
   <meta charset="utf-8">
   <title>Home</title>
   <link rel="stylesheet" href="test4.css"> 
-  <link rel="icon" type="image/jng" href="Logo Mexican restuarant.jpg">
 </head>
 <body>
 
-
-
+ 
+ 
   <div class="navbar">
     <a href="test4.html">Home</a>
-    <a href="ArmanLayou.html">Menu</a>
+    <a href="ArmanLayou.htm">Menu</a>
 
     <div class="subnav">
       <button class="subnavbtn">Services</button>
@@ -25,15 +24,15 @@
     <div class="subnav">
       <button class="subnavbtn">Partners</button>
       <div class="subnav-content">
-        <a href="New_partner.html ">Foodora</a>
-        <a href="Partner2.html">Produce</a>
+        <a href="New_partner.html">Foodora</a>
+        <a href="Partner2.html">produce</a>
       </div>
     </div>
 
     <div class="subnav">
       <button class="subnavbtn">About</button>
       <div class="subnav-content">
-        <a href="About_us.html">About us</a>
+        <a href="showcase.html">About us</a>
         <a href="Contect.html">Contact</a>
       </div>
     </div>
@@ -42,15 +41,13 @@
 
 
 
-  <section class="hero">
-    <div class="hero-content">
-  <section class="Main">
-    <div class="Main_content">
+  <section class="Intro">
+    <div class="Intro_content">
       <h1>Everyday tacos</h1>
       <p>Modern mexicen food</p>
       <div class="buttons">
-        <a href="ArmanDeliver.html" class="btn">Delivery</a>
-        <a href="ArmanLayou.html" class="btn">Menu</a>
+        <a href="#" class="btn">Delivery</a>
+        <a href="#" class="btn">Menu</a>
       </div>
     </div>
   </section> 
@@ -59,7 +56,7 @@
     Everyday tacos Everyday tacos
     </div>
 
-
+ 
   <section class="about">
     <h2>Mexican food with a modern twist</h2>
     <p>Everyday taco's, the new modern mexican resturant opens its doors. discover the flavors of mexican cuisne with a modern twist.
@@ -69,14 +66,14 @@
   <section class="lunch">
     <h2>Our parnters</h2>
     <p>Delivery and produce</p>
-    <a href="Partner2.html" class="btn">Learn more</a>
+    <a href="#" class="btn">Learn more</a>
   </section>
 
 
   <section class="catering">
     <h2>Catering</h2>
     <p>A box filled with delicious tacos or nachos from Dirty Taco is the ultimate choice to set the taste buds ablaze during your mingle, staff activities, birthday celebrations or client meetings.</p>
-    <a href="Cataering.html" class="btn">Learn more</a>
+    <a href="#" class="btn">Learn more</a>
   </section> 
 
 
@@ -88,8 +85,7 @@
 
   <footer class="footer">
     <div class="footer-container">
-
-
+  
       <div class="footer-section">
         <h3>Contact Us</h3>
         <p><strong>Email:</strong> <a href="mailto:MexicanFoods@gmail.com">Mexican.Foods@gmail.com</a></p>
@@ -97,9 +93,8 @@
         <p><strong>Address:</strong> Kungsgatatan 37</p>
       </div>
   <hr>
-
+     
       <div class="footer-section">
-      <div class="footer_section">
         <h3>Follow Us</h3>
         <div class="social-icons">
           <a href="https://www.youtube.com/watch?v=RjvOKZAONfw&t=211s" class="social-icon"><i class="fab fa-youtube"></i></a>
@@ -108,9 +103,8 @@
         </div>
       </div>
   <hr>
-
+    
       <div class="footer-section">
-      <div class="footer_section">
         <h3>Restaurant's Opening Hours</h3>
         <p><strong>Monday:</strong> 9:00 - 20:00</p>
         <p><strong>Tuesday:</strong> 10:00 – 20:00</p>
@@ -120,29 +114,13 @@
         <p><strong>Saturday:</strong> 10:00 – 20:00</p>
         <p><strong>Sunday:</strong> Closed</p>
       </div>
-
+  
+  
     </div>
   </footer>
-
-  <script>
-    const buttons = document.querySelectorAll('.price-btn');
-
-    buttons.forEach((btn) => {
-      btn.addEventListener('click', () => {
-
-        const img = btn.parentElement.querySelector('img');
-        const foodName = img?.alt?.trim() || "Selected Item";
+  
 
 
-        document.getElementById('food').value = foodName;
-
-
-        document.getElementById('order-section').scrollIntoView({ behavior: 'smooth' });
-      });
-    });
-  </script> 
   <script src="something.js"></script>
-
-  </body>
-  </html>
-~
+</body>
+</html>
